@@ -4,7 +4,7 @@
 
 1. Background & Basics: Machine Learning Intuition
 
-2. Python: Python 101 for Machine Learning
+2. Background & Basics: NEURAL ARCHITECTURE
 
 3. DNN Concepts: Convolutions, Pooling Operations & Channels
 

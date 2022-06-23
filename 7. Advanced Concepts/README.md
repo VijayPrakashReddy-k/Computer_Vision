@@ -14,7 +14,7 @@
 
 - [Checkerboard Issue](./README.md/#issue)
 
-- [Atrous or Dilated Convolutions](./README.md/#Atrous)
+- [Atrous or Dilated Convolutions](./README.md/#atrous)
 
 - [Dense Problems](./README.md/#dense-problem)
 
@@ -85,3 +85,16 @@ In later layers of a CNN, you can have more than 3 channels, with some networks 
 
 A convolutional unit only depends on a local region (patch) of the input. That’s why we never refer to the RF on fully connected layers since each unit has access to all the input region.
 
+<br>
+<h1 align = 'center' id = "issue">  CHECKERBOARD ISSUE </h1>
+
+<p align = 'center'>
+            <img src = Images/CheckerBoard_Issue.png/>
+</p>
+
+- Mysteriously, the checkerboard pattern tends to be most prominent in images with strong colors. What’s going on? Do neural networks hate bright colors? The actual cause of these artifacts is actually remarkably simple, as is a method for avoiding them.
+
+<br>
+<p align = 'center'>
+            <img src = Images/CheckerBoard_Solution.gif/>
+</p>

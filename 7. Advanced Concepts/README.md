@@ -28,7 +28,7 @@
 
 - [Grouped Convolutions](./README.md/#grouped)
 
-<h1 align = 'center',id = "convolution"> Convolution</h1>
+<h1 align = 'center' id = "convolution"> Convolution</h1>
 
 **What is Convolution?**
 
@@ -47,7 +47,7 @@
             <img src = Images/Maths_NC.gif width="700" height="400"/>
 </p>
 
-<h1 align = 'center',id = "PC"> Pointwise Convolutions </h1>
+<h1 align = 'center' id = "PC"> Pointwise Convolutions </h1>
 
 *Pointwise Convolution is a type of convolution that uses a 1x1 kernel: a kernel that iterates through every single point. This kernel has a depth of however many channels the input image has. It can be used in conjunction with depthwise convolutions to produce an efficient class of convolutions known as depthwise-separable convolutions.*
 
@@ -61,7 +61,7 @@
 
 <br>
 
-<h1 align = 'center',id = "channels"> Concept of Channels </h1>
+<h1 align = 'center' id = "channels"> Concept of Channels </h1>
 
 When we feed a CNN colored images, those images come in three channels: Red, Green, Blue.
 
@@ -73,7 +73,7 @@ In later layers of a CNN, you can have more than 3 channels, with some networks 
             <img src = Images/Channels_Concept.gif/>
 </p>
 
-<h1 align = 'center',id = "RF"> RECEPTIVE FIELD </h1>
+<h1 align = 'center' id = "RF"> RECEPTIVE FIELD </h1>
 
 `The Receptive Field (RF) is defined as the size of the region in the input that produces the feature. Basically, it is a measure of association of an output feature (of any layer) to the input region (patch).`
 

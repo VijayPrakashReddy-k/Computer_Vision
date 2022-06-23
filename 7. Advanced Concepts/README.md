@@ -4,7 +4,7 @@
 
 **Contents:**
 
-- [Normal Convolutions](./README.md/#NC)
+- [Convolution](./README.md/#convolution)
 
 - [Pointwise Convolutions](./README.md/#PC)
 
@@ -27,3 +27,14 @@
 - [Spatially Separable Convolution (SKIPPED)](./README.md/#spatial)
 
 - [Grouped Convolutions](./README.md/#grouped)
+
+<h1 align = 'center',style="color:Tomato;",id = "convolution"> Convolution</h1>
+
+**What is Convolution?**
+
+    ⊛ The process of extracting features from input data using kernels/filters.
+    
+    ⊛ Filter moves discretely on top of the data-plane/channel, scale the input data equal to the size of its receptive field sums
+    these results and creates a new feature map.
+
+<h1 align = 'left'>Normal Convolutions</h1>

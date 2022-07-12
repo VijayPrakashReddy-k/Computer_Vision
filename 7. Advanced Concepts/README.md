@@ -14,13 +14,13 @@
 
 - [Checkerboard Issue](./README.md/#issue)
 
-- [Atrous or Dilated Convolutions](./README.md/#atrous)
+- [Atrous or Dilated Convolutions](./CONTENT.md/#atrous)
 
-- [Dense Problems](./README.md/#dense-problem)
+- [Dense Problems](./CONTENT.md/#dense-problem)
 
-- [Deconvolutions or Transpose Convolutions](./README.md/#transpose)
+- [Deconvolutions or Transpose Convolutions](./CONTENT.md/#transpose)
 
-- [Pixel Shuffle Algorithm (SKIPPED)](./README.md/#pixel)
+- [Pixel Shuffle Algorithm (SKIPPED)](./CONTENT.md/#pixel)
 
 - [Depthwise Separable Convolution](./README.md/#deptwise)
 

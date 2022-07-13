@@ -22,7 +22,7 @@
 
 - [Pixel Shuffle Algorithm (SKIPPED)](./CONTENT.md/#pixel)
 
-- [Depthwise Separable Convolution](./README.md/#deptwise)
+- [Depthwise Separable Convolution](./README.md/#depthwise)
 
 - [Spatially Separable Convolution (SKIPPED)](./README.md/#spatial)
 
@@ -97,4 +97,49 @@ A convolutional unit only depends on a local region (patch) of the input. Thatâ€
 <br>
 <p align = 'center'>
             <img src = Images/CheckerBoard_Solution.gif/>
+</p>
+
+<br>
+<h1 align = 'center' id = "depthwise">  DEPTHWISE SEPARABLE CONVOLUTION </h1>
+
+What is wrong with this convolution?
+
+<p align = 'center'>
+            <img src = Images/Separable_Convolutions.gif/>
+</p>
+
+### DEPTHWISE SEPARABLE CONVOLUTION
+
+<p align = 'center'>
+            <img src = Images/Depthwise_Separable_Convolution.png/>
+</p>
+
+<p align = 'center'>
+            <img src = Images/Depthwise_Separable.gif/>
+</p>
+
+[Reference](https://eli.thegreenplace.net/2018/depthwise-separable-convolutions-for-machine-learning/)
+
+For a depthwise separable convolution on the same example, we traverse the 16 channels with 1 3x3 kernel each, giving us 16 feature maps. Now, before merging anything, we traverse these 16 feature maps with 32 1x1 convolutions each and only then start to them add together.
+
+- `This results in 656 (16x3x3 + 16x32x1x1) parameters opposed to the 4608 (16x32x3x3) parameters from above.`
+
+<h1 align = 'center' id = "depthwise">  SPATIALLY SEPARABLE CONVOLUTION </h1>
+
+- `SPATIALLY SEPARABLE CONVOLUTION Was  used immensely in different variants of Xception-Incepeption Networks as well as the MobileNet.`
+
+<p align = 'center'>
+            <img src = Images/Spatially_Separable_Convolution.gif/>
+</p>
+
+<h1 align = 'center' id = "grouped">  GROUPED CONVOLUTION </h1>
+
+Grouped convolutions were initially mentioned in AlexNet and later reused in ResNext. The main motivation of such convolutions is to reduce computational complexity while dividing features into groups.
+
+<p align = 'center'>
+            <img src = Images/Spatially_Separable_Convolution.gif/>
+</p>
+
+<p align = 'center'>
+            <img src = Images/Spatially_Separable_Convolution.gif/>
 </p>

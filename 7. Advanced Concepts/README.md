@@ -134,12 +134,12 @@ For a depthwise separable convolution on the same example, we traverse the 16 ch
 
 <h1 align = 'center' id = "grouped">  GROUPED CONVOLUTION </h1>
 
-Grouped convolutions were initially mentioned in AlexNet and later reused in ResNext. The main motivation of such convolutions is to reduce computational complexity while dividing features into groups.
+`Grouped convolutions were initially mentioned in AlexNet and later reused in ResNext. The main motivation of such convolutions is to reduce computational complexity while dividing features into groups.`
 
 <p align = 'center'>
-            <img src = Images/Spatially_Separable_Convolution.gif/>
+            <img src = Images/Grouped_Convolution.png/>
 </p>
 
 <p align = 'center'>
-            <img src = Images/Spatially_Separable_Convolution.gif/>
+            <img src = Images/All_Convolutions.gif/>
 </p>

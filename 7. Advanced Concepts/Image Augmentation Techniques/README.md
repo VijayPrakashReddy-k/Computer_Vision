@@ -1,7 +1,7 @@
-## 9 - Data Augmentation
-### Session:9  Advanced Image Augmentation Techniques: Albumentations, Richman's data augmentation and benchmarks
+## Data Augmentation
+### Advanced Image Augmentation Techniques: Albumentations, Richman's data augmentation and benchmarks
 
-**week 9 contents:**
+**contents:**
 
 - [Relationship between Data and Validation Accuracy](./README.md/#datarelation)
 
@@ -39,9 +39,7 @@
 
 - [Assignment](./README.md/#assignment)
 
-<p align = 'center',id = 'datarelation'>
-            <img src = "https://user-images.githubusercontent.com/42317258/110660713-d4a6db00-81e9-11eb-9047-4d65fd26042f.png" />
-</p>
+<h1 align = 'center' id = 'datarelation'> DATA Augmentation </h1>
 
 - **`One easy way of increasing accuracy is increasing the Receptive Field:`**
 

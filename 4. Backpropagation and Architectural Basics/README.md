@@ -32,3 +32,7 @@
 - `Neural networks come in many forms, but the main form we need to master is that of "fully connected layers".  A network with many such (or other) layers is called "deep".`
 
 Let's look at a very simple neural network.
+
+<p align = 'center'>
+            <img src = Images/simple_perceptron_model.png width="900" height="400"/>
+</p>
